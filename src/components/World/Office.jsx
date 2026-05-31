@@ -208,7 +208,7 @@ export default function Office( ...props) {
               }}
             >
               <iframe
-                src="http://tengis-portfolio.netlify.app"
+                src="https://tengis-portfolio.netlify.app"
                 style={{
                   width: '1200px',
                   height: '880px',
