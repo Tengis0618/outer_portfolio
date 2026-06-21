@@ -13,7 +13,7 @@ import { useGLTF, Html, useTexture } from '@react-three/drei'
 import * as THREE from 'three'
 
 export default function Office( ...props) {
-  const { nodes, materials } = useGLTF('/assets/models/office-1024.glb')
+  const { nodes, materials } = useGLTF('/assets/models/office.glb')
   const hackathonPhotoTexture = useTexture('/assets/images/hackathon.JPG')
   const familyPhotoTexture = useTexture('/assets/images/family.JPG')
   const volleyballPhotoTexture = useTexture('/assets/images/volleyball_sh.JPG')
