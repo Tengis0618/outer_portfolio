@@ -17,7 +17,7 @@ export default function Scene() {
       <ambientLight intensity={0.5} />
       <directionalLight position={[5, 5, 5]} intensity={1} castShadow />
 
-      <Environment preset="city" />
+      {/*<Environment preset="city" /> */}
 
       <ContactShadows
         position={[0, -1, 0]}
